@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.NavBar{
+  background-color: rgb(8, 41, 226);
+  color: white;
+  display: flex;
+  padding: 0 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo{
+  font-size: 24px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  cursor: pointer;
+}
+.logo:hover{
+  color: rgb(164, 164, 231);
+  transition: 200ms;
+}
+.navbtn{
+  display: flex;
+}
+ul li{
+  padding-left: 20px;
+  display: inline-block;
+}
+li{
+  list-style: none;
+}
+
+svg{
+  width: 1.5em;
+  height: 1.5em;
+  color: white;
+}
+svg:hover{
+  color: rgb(164, 164, 231);
+  transition: 200ms;
+}
+button{
+  background-color: white;
+  border: 1px solid rgb(9, 12, 209);
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: rgb(18, 20, 160);
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(3, 4, 59);
+  color: white;
+  transition: 200ms;
+}
+.content{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image{
+  width: 40%;
+}
+.image img{
+  width: 500px;
+  height: 500px;
+}
+.form{
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+.contents{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.segment{
+  display: flex;
+  background-color: rgb(239, 236, 255);
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 100px;
+}
+.segment img{
+  width: 70px;
+  height: 70px;
+}
+.junk{
+  font-size: bold;
+  font-size: 25px;
+}
+.spinner{
+  margin-bottom: 20px;
+}
