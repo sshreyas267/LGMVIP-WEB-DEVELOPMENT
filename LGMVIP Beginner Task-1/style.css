@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Monaco', monospace;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url('images/office.jpg');
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    /* background-color: rgb(161, 161, 1); */
+}
+.logo{
+    font-weight:bolder;
+    font-size: 65px;
+    color: green;
+}
+ul li{
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.mid{
+    /* background-color: yellow; */
+    height: 90vh;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red;
+    height: 300px;
+    align-items: center;
+    
+    justify-content: center; */
+}
+.main{
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: white;
+}
+.center p{
+    padding-bottom: 30px;
+    font-size: 14;
+    color: rgb(201, 201, 201);
+}
+
+.btn{
+    border: 1.5px solid yellow;
+    background: none;
+    border-radius: 4px;
+    padding: 12px;
+    font: 22px;
+    color: white;
+}
+.btn{
+    margin-right: 20px;
+}
+.btn:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+}
+
+
+
+.container2{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Monaco', monospace;
+}
+.main2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.heading2{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 65px;
+}
+.block{
+    display: flex;
+    height: 85vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 18px;
+    align-items: center;
+}
+.content2 div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content2 img{
+    width: 120px;
+    height: 120px;
+    color: rgb(214, 218, 33);
+}
+.span2 {
+    display: flex;
+    width: 50%;
+    height: 30vh;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.text1 a{
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(204, 207, 0);
+}
+.text1 a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(204, 207, 3);
+    transition: 500ms;
+}
+.heading2 span{
+    color: rgb(204, 204, 0);
+}
+.silder{
+    background-color: orange;
+    width: 100%;
+    height: 85vh;
+}
+
+h1{
+    font-size: 60px;;
+}
+p{
+    font-size: 20px;
+}
+
+
+
+.block3{
+    width: 100%;
+    height: 85vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.segment1{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.segment1 .img3{
+    width: 250px;
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url('images/office1.jpg');
+}
+.segment1 .content3{
+    position: absolute;
+    bottom: 50px;
+    width: 70%;
+}
+.segment1 p{
+    color: white;
+    margin-bottom: 20px;
+}
+.segment1 a{
+    color: rgb(255, 255, 0);
+    border: 1px solid rgb(165, 165, 0);
+    padding: 7px;
+}
+
+.main4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.img4{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url('images/office.jpg');
+}
+
+.block4{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactform{
+    width: 60%;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.inputbox textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        resize: none;
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.last{
+    background: yellow;
+    color: black;
+    padding: 10px 20px;
+}
+.last:hover{
+    background: rgb(218, 218, 1);
+    transition: 400ms;
+    color: black;
+    padding: 10px 20px;
+}
